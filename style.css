@@ -152,6 +152,7 @@ li {
   display: block;
   position: relative;
   color: white;
+  text-shadow: 1px 2px 3px #808080;
   text-decoration: none;
   overflow: hidden;
 }
@@ -190,8 +191,12 @@ li {
 .top_message {
     top: 50px;
     right: 60px;
+    border-top: solid;
+    border-bottom: solid;
+    border-color: rgba(0, 0, 0, .4);
     opacity: 1;
     background-color: rgb(253, 253, 244);
+    background-clip: padding-box;
 }
 
 
